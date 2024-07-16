@@ -183,15 +183,20 @@ body {
     cursor: pointer;
 }
 
-
+.hambar{
+    display: none;
+}
 
 @media screen and (max-width:600px) {
 
-    .navbar,
-    .list-items {
-        flex-direction: column;
+    .list-items{
+        display: none;
     }
-
+    .hambar{
+        display: block;
+    }
+    
+   
     .banner,
     .featured-content {
         flex-direction: column-reverse;
